@@ -14,7 +14,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/<your-username>/ci-cd-devsecops-demo.git', branch: 'main'
+                git url: 'https://github.com/KeerthiKorrapati01/Python_Code.git', branch: 'main'
             }
         }
 
